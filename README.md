@@ -139,7 +139,7 @@ Pareto-плот - `results/compute_cost_bubble.png`. Лучший компром
 
 ## Архитектура сервиса
 
-Live-демонстрация: <https://archstyle55-hse.streamlit.app/>. Backend: <https://kkkaredaw-archstyle55-backend.hf.space>. Веса: <https://huggingface.co/kkkaredaw/archstyle55-backbones>.
+Backend: <https://kkkaredaw-archstyle55-backend.hf.space>. Веса: <https://huggingface.co/kkkaredaw/archstyle55-backbones>.
 
 ```mermaid
 flowchart LR
