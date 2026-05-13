@@ -29,6 +29,8 @@
 
 Сами изображения в репозитории не хранятся. Сплиты зафиксированы в `pipeline/results/splits/manifest.csv`. В `results/embeddings/` лежат только производные DINOv2-эмбеддинги (768-D, frozen). 
 
+<img width="1523" height="2047" alt="dataset_class_sizes" src="https://github.com/user-attachments/assets/c5fd00b0-e643-427f-8157-c30dd0cb1cdd" />
+
 ## Тренировочный конвейер
 
 `pipeline/training/loop.py`:
