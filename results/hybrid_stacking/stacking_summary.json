@@ -1,0 +1,90 @@
+{
+  "rows": [
+    {
+      "name": "single_v2s_argmax",
+      "accuracy": 0.7527087316762269,
+      "macro_f1": 0.748047398472614,
+      "balanced_accuracy": 0.7498028865413235,
+      "n_train": 0,
+      "n_eval": 1569,
+      "n_features": 55
+    },
+    {
+      "name": "ensemble_top3_uniform_argmax",
+      "accuracy": 0.7782026768642447,
+      "macro_f1": 0.7720693467820016,
+      "balanced_accuracy": 0.7723822946401958,
+      "n_train": 0,
+      "n_eval": 1569,
+      "n_features": 165
+    },
+    {
+      "accuracy": 0.1268323773103888,
+      "macro_f1": 0.11066903440696202,
+      "balanced_accuracy": 0.1170116773340212,
+      "name": "attrs_only",
+      "n_train": 1569,
+      "n_eval": 1569,
+      "n_features": 26
+    },
+    {
+      "accuracy": 0.7660930528999362,
+      "macro_f1": 0.7587158263293052,
+      "balanced_accuracy": 0.7616788711280699,
+      "name": "stacker_probs_top3",
+      "n_train": 1569,
+      "n_eval": 1569,
+      "n_features": 165
+    },
+    {
+      "accuracy": 0.7718291905672403,
+      "macro_f1": 0.7642824774382914,
+      "balanced_accuracy": 0.7673163993958572,
+      "name": "stacker_probs_top3_attrs",
+      "n_train": 1569,
+      "n_eval": 1569,
+      "n_features": 191
+    },
+    {
+      "accuracy": 0.7240280433397068,
+      "macro_f1": 0.7120807526853484,
+      "balanced_accuracy": 0.7166784662626837,
+      "name": "stacker_v2s_attrs",
+      "n_train": 1569,
+      "n_eval": 1569,
+      "n_features": 81
+    }
+  ],
+  "mcnemar": {
+    "v2s_vs_ensemble": {
+      "n01": 73,
+      "n10": 33,
+      "chi2": 14.349056603773585,
+      "p": 0.00015185576707951024
+    },
+    "ensemble_vs_stacker_pt": {
+      "n01": 73,
+      "n10": 92,
+      "chi2": 1.9636363636363636,
+      "p": 0.1611249492890518
+    },
+    "ensemble_vs_stacker_pt_atr": {
+      "n01": 75,
+      "n10": 85,
+      "chi2": 0.50625,
+      "p": 0.4767667239985801
+    },
+    "stacker_pt_vs_pt_atr": {
+      "n01": 26,
+      "n10": 17,
+      "chi2": 1.4883720930232558,
+      "p": 0.22246921066468886
+    },
+    "v2s_vs_stacker_v2s_atr": {
+      "n01": 57,
+      "n10": 102,
+      "chi2": 12.176100628930818,
+      "p": 0.00048405729033518415
+    }
+  }
+}

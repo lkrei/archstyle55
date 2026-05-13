@@ -1,0 +1,146 @@
+[
+  {
+    "path": "Russian eclectic architecture/russian_eclectic_architecture_00012.jpg",
+    "true": "Russian eclectic architecture",
+    "pred": "Late 20th century Moscow architecture",
+    "confidence": 0.9507442712783813
+  },
+  {
+    "path": "Stalinist architecture/stalinist_architecture_00340.jpg",
+    "true": "Stalinist architecture",
+    "pred": "Constructivist architecture",
+    "confidence": 0.945180356502533
+  },
+  {
+    "path": "Constructivist architecture/constructivist_architecture_00203.jpg",
+    "true": "Constructivist architecture",
+    "pred": "Late 20th century Moscow architecture",
+    "confidence": 0.9451364874839783
+  },
+  {
+    "path": "Beaux-Arts architecture/beaux_arts_architecture_00216.jpg",
+    "true": "Beaux-Arts architecture",
+    "pred": "Russian eclectic architecture",
+    "confidence": 0.9437947273254395
+  },
+  {
+    "path": "Moscow Luzhkov style architecture/moscow_luzhkov_style_architecture_00016.jpg",
+    "true": "Late 20th century Moscow architecture",
+    "pred": "Soviet modernist architecture",
+    "confidence": 0.9435564279556274
+  },
+  {
+    "path": "Constructivist architecture/constructivist_architecture_00040.jpg",
+    "true": "Constructivist architecture",
+    "pred": "Late 20th century Moscow architecture",
+    "confidence": 0.9402686953544617
+  },
+  {
+    "path": "Soviet modernist architecture/soviet_modernist_architecture_00287.jpg",
+    "true": "Soviet modernist architecture",
+    "pred": "Late 20th century Moscow architecture",
+    "confidence": 0.9383493065834045
+  },
+  {
+    "path": "Second Empire architecture/second_empire_architecture_00074.jpg",
+    "true": "Second Empire architecture",
+    "pred": "Italianate architecture",
+    "confidence": 0.9343142509460449
+  },
+  {
+    "path": "American craftsman style/american_craftsman_style_00243.jpg",
+    "true": "American craftsman style",
+    "pred": "Edwardian architecture",
+    "confidence": 0.9325200319290161
+  },
+  {
+    "path": "Constructivist architecture/constructivist_architecture_00381.jpg",
+    "true": "Constructivist architecture",
+    "pred": "Stalinist architecture",
+    "confidence": 0.930818498134613
+  },
+  {
+    "path": "Art Deco architecture/art_deco_architecture_00202.jpg",
+    "true": "Art Deco architecture",
+    "pred": "Art Nouveau architecture",
+    "confidence": 0.9300776124000549
+  },
+  {
+    "path": "American Foursquare architecture/american_foursquare_architecture_00208.jpg",
+    "true": "American Foursquare architecture",
+    "pred": "Queen Anne architecture",
+    "confidence": 0.9282897114753723
+  },
+  {
+    "path": "Postmodern architecture/postmodern_architecture_00061.jpg",
+    "true": "Postmodern architecture",
+    "pred": "International style",
+    "confidence": 0.9240269660949707
+  },
+  {
+    "path": "Constructivist architecture/constructivist_architecture_00233.jpg",
+    "true": "Constructivist architecture",
+    "pred": "Stalinist architecture",
+    "confidence": 0.923470139503479
+  },
+  {
+    "path": "Moscow Luzhkov style architecture/moscow_luzhkov_style_architecture_00084.jpg",
+    "true": "Late 20th century Moscow architecture",
+    "pred": "Constructivist architecture",
+    "confidence": 0.9208891987800598
+  },
+  {
+    "path": "Chinese traditional architecture/chinese_traditional_architecture_00318.png",
+    "true": "Chinese traditional architecture",
+    "pred": "Japanese traditional architecture",
+    "confidence": 0.9203411936759949
+  },
+  {
+    "path": "Japanese traditional architecture/japanese_traditional_architecture_00283.jpg",
+    "true": "Japanese traditional architecture",
+    "pred": "Chinese traditional architecture",
+    "confidence": 0.9201128482818604
+  },
+  {
+    "path": "Moscow Luzhkov style architecture/moscow_luzhkov_style_architecture_00027.jpg",
+    "true": "Late 20th century Moscow architecture",
+    "pred": "Constructivist architecture",
+    "confidence": 0.9200910329818726
+  },
+  {
+    "path": "International style/international_style_00191.jpg",
+    "true": "International style",
+    "pred": "Bauhaus architecture",
+    "confidence": 0.9194782376289368
+  },
+  {
+    "path": "Constructivist architecture/constructivist_architecture_00358.jpg",
+    "true": "Constructivist architecture",
+    "pred": "Late 20th century Moscow architecture",
+    "confidence": 0.9170202612876892
+  },
+  {
+    "path": "Constructivist architecture/constructivist_architecture_00017.jpg",
+    "true": "Constructivist architecture",
+    "pred": "Late 20th century Moscow architecture",
+    "confidence": 0.9170202612876892
+  },
+  {
+    "path": "Brutalist architecture/brutalist_architecture_00200.jpg",
+    "true": "Brutalist architecture",
+    "pred": "Deconstructivism",
+    "confidence": 0.9151486754417419
+  },
+  {
+    "path": "Neoclassical architecture/neoclassical_architecture_00128.jpg",
+    "true": "Neoclassical architecture",
+    "pred": "Greek Revival architecture",
+    "confidence": 0.9141709208488464
+  },
+  {
+    "path": "Gothic architecture/gothic_architecture_00074.jpg",
+    "true": "Gothic architecture",
+    "pred": "Gothic Revival architecture",
+    "confidence": 0.9140211939811707
+  }
+]

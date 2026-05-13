@@ -1,0 +1,58 @@
+[
+  {
+    "model": "resnet50",
+    "image_size": 224,
+    "params_m": 23.62,
+    "gflops": 4.143,
+    "inference_ms": 24.51
+  },
+  {
+    "model": "efficientnet_b0",
+    "image_size": 224,
+    "params_m": 4.08,
+    "gflops": 0.421,
+    "inference_ms": 282.36
+  },
+  {
+    "model": "efficientnet_b2",
+    "image_size": 260,
+    "params_m": 7.78,
+    "gflops": 1.067,
+    "inference_ms": 395.29
+  },
+  {
+    "model": "efficientnet_b3",
+    "image_size": 300,
+    "params_m": 10.78,
+    "gflops": 1.954,
+    "inference_ms": 545.3
+  },
+  {
+    "model": "efficientnet_v2_s",
+    "image_size": 384,
+    "params_m": 20.25,
+    "gflops": 8.553,
+    "inference_ms": 101.92
+  },
+  {
+    "model": "convnext_small",
+    "image_size": 224,
+    "params_m": 49.5,
+    "gflops": 8.705,
+    "inference_ms": 878.44
+  },
+  {
+    "model": "vit_b16",
+    "image_size": 224,
+    "params_m": 85.84,
+    "gflops": 16.867,
+    "inference_ms": 53.13
+  },
+  {
+    "model": "swin_v2_t",
+    "image_size": 224,
+    "params_m": 27.62,
+    "gflops": 4.955,
+    "inference_ms": 45.13
+  }
+]

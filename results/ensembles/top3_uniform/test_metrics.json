@@ -1,0 +1,9 @@
+{
+  "name": "ensemble_top3_uniform",
+  "n_test": 3138,
+  "num_test": 3138,
+  "accuracy": 0.7852135117909497,
+  "macro_f1": 0.7798987607363604,
+  "balanced_accuracy": 0.780327061525394,
+  "top5_accuracy": 0.9684512428298279
+}

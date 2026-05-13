@@ -1,0 +1,345 @@
+{
+  "Achaemenid architecture": {
+    "precision": 0.9661016949152542,
+    "recall": 0.95,
+    "f1-score": 0.957983193277311,
+    "support": 60.0
+  },
+  "American Foursquare architecture": {
+    "precision": 0.704225352112676,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.7633587786259542,
+    "support": 60.0
+  },
+  "American craftsman style": {
+    "precision": 0.7894736842105263,
+    "recall": 0.75,
+    "f1-score": 0.7692307692307693,
+    "support": 60.0
+  },
+  "Ancient Egyptian architecture": {
+    "precision": 0.9682539682539683,
+    "recall": 1.0,
+    "f1-score": 0.9838709677419355,
+    "support": 61.0
+  },
+  "Art Deco architecture": {
+    "precision": 0.8170731707317073,
+    "recall": 0.788235294117647,
+    "f1-score": 0.8023952095808383,
+    "support": 85.0
+  },
+  "Art Nouveau architecture": {
+    "precision": 0.8787878787878788,
+    "recall": 0.9354838709677419,
+    "f1-score": 0.90625,
+    "support": 93.0
+  },
+  "Baroque architecture": {
+    "precision": 0.7222222222222222,
+    "recall": 0.7536231884057971,
+    "f1-score": 0.7375886524822695,
+    "support": 69.0
+  },
+  "Bauhaus architecture": {
+    "precision": 0.5692307692307692,
+    "recall": 0.6166666666666667,
+    "f1-score": 0.592,
+    "support": 60.0
+  },
+  "Beaux-Arts architecture": {
+    "precision": 0.6438356164383562,
+    "recall": 0.746031746031746,
+    "f1-score": 0.6911764705882353,
+    "support": 63.0
+  },
+  "Brutalist architecture": {
+    "precision": 0.7272727272727273,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.6956521739130435,
+    "support": 60.0
+  },
+  "Byzantine architecture": {
+    "precision": 0.868421052631579,
+    "recall": 0.7021276595744681,
+    "f1-score": 0.7764705882352941,
+    "support": 47.0
+  },
+  "Chicago school architecture": {
+    "precision": 0.8205128205128205,
+    "recall": 0.7804878048780488,
+    "f1-score": 0.8,
+    "support": 41.0
+  },
+  "Chinese traditional architecture": {
+    "precision": 0.9056603773584906,
+    "recall": 0.8,
+    "f1-score": 0.8495575221238938,
+    "support": 60.0
+  },
+  "Colonial architecture": {
+    "precision": 0.7878787878787878,
+    "recall": 0.7222222222222222,
+    "f1-score": 0.7536231884057971,
+    "support": 72.0
+  },
+  "Constructivist architecture": {
+    "precision": 0.6170212765957447,
+    "recall": 0.48333333333333334,
+    "f1-score": 0.5420560747663551,
+    "support": 60.0
+  },
+  "Contemporary architecture": {
+    "precision": 0.6285714285714286,
+    "recall": 0.7333333333333333,
+    "f1-score": 0.676923076923077,
+    "support": 30.0
+  },
+  "Deconstructivism": {
+    "precision": 0.96,
+    "recall": 0.9411764705882353,
+    "f1-score": 0.9504950495049505,
+    "support": 51.0
+  },
+  "Edwardian architecture": {
+    "precision": 0.7428571428571429,
+    "recall": 0.6341463414634146,
+    "f1-score": 0.6842105263157895,
+    "support": 41.0
+  },
+  "Federal architecture": {
+    "precision": 0.6774193548387096,
+    "recall": 0.8936170212765957,
+    "f1-score": 0.7706422018348624,
+    "support": 47.0
+  },
+  "Georgian architecture": {
+    "precision": 0.6271186440677966,
+    "recall": 0.6491228070175439,
+    "f1-score": 0.6379310344827587,
+    "support": 57.0
+  },
+  "Gothic Revival architecture": {
+    "precision": 0.8307692307692308,
+    "recall": 0.9152542372881356,
+    "f1-score": 0.8709677419354839,
+    "support": 59.0
+  },
+  "Gothic architecture": {
+    "precision": 0.7333333333333333,
+    "recall": 0.8979591836734694,
+    "f1-score": 0.8073394495412844,
+    "support": 49.0
+  },
+  "Greek Revival architecture": {
+    "precision": 0.8831168831168831,
+    "recall": 0.8607594936708861,
+    "f1-score": 0.8717948717948718,
+    "support": 79.0
+  },
+  "High-tech architecture": {
+    "precision": 0.7258064516129032,
+    "recall": 0.75,
+    "f1-score": 0.7377049180327869,
+    "support": 60.0
+  },
+  "Industrial architecture": {
+    "precision": 0.90625,
+    "recall": 0.9666666666666667,
+    "f1-score": 0.9354838709677419,
+    "support": 30.0
+  },
+  "International style": {
+    "precision": 0.609375,
+    "recall": 0.6290322580645161,
+    "f1-score": 0.6190476190476191,
+    "support": 62.0
+  },
+  "Italianate architecture": {
+    "precision": 0.8208955223880597,
+    "recall": 0.9166666666666666,
+    "f1-score": 0.8661417322834646,
+    "support": 60.0
+  },
+  "Japanese traditional architecture": {
+    "precision": 0.8088235294117647,
+    "recall": 0.9166666666666666,
+    "f1-score": 0.859375,
+    "support": 60.0
+  },
+  "Khmer architecture": {
+    "precision": 1.0,
+    "recall": 0.9322033898305084,
+    "f1-score": 0.9649122807017544,
+    "support": 59.0
+  },
+  "Mayan architecture": {
+    "precision": 0.9354838709677419,
+    "recall": 0.9666666666666667,
+    "f1-score": 0.9508196721311475,
+    "support": 30.0
+  },
+  "Mid-century modern architecture": {
+    "precision": 0.8787878787878788,
+    "recall": 0.9666666666666667,
+    "f1-score": 0.9206349206349206,
+    "support": 60.0
+  },
+  "Moorish Revival architecture": {
+    "precision": 0.8478260869565217,
+    "recall": 0.65,
+    "f1-score": 0.7358490566037735,
+    "support": 60.0
+  },
+  "Late 20th century Moscow architecture": {
+    "precision": 0.3018867924528302,
+    "recall": 0.2807017543859649,
+    "f1-score": 0.2909090909090909,
+    "support": 57.0
+  },
+  "Mughal architecture": {
+    "precision": 0.873015873015873,
+    "recall": 0.9322033898305084,
+    "f1-score": 0.9016393442622951,
+    "support": 59.0
+  },
+  "Naryshkin Baroque architecture": {
+    "precision": 0.7454545454545455,
+    "recall": 0.6949152542372882,
+    "f1-score": 0.7192982456140351,
+    "support": 59.0
+  },
+  "Neo-Byzantine architecture": {
+    "precision": 0.7538461538461538,
+    "recall": 0.8166666666666667,
+    "f1-score": 0.784,
+    "support": 60.0
+  },
+  "Neoclassical architecture": {
+    "precision": 0.8823529411764706,
+    "recall": 0.5,
+    "f1-score": 0.6382978723404256,
+    "support": 30.0
+  },
+  "Novelty architecture": {
+    "precision": 0.9322033898305084,
+    "recall": 0.9482758620689655,
+    "f1-score": 0.9401709401709402,
+    "support": 58.0
+  },
+  "Palladian architecture": {
+    "precision": 0.72,
+    "recall": 0.6923076923076923,
+    "f1-score": 0.7058823529411765,
+    "support": 52.0
+  },
+  "Postmodern architecture": {
+    "precision": 0.7441860465116279,
+    "recall": 0.6530612244897959,
+    "f1-score": 0.6956521739130435,
+    "support": 49.0
+  },
+  "Prairie School architecture": {
+    "precision": 0.8,
+    "recall": 0.8,
+    "f1-score": 0.8,
+    "support": 30.0
+  },
+  "Queen Anne architecture": {
+    "precision": 0.8715596330275229,
+    "recall": 0.8796296296296297,
+    "f1-score": 0.8755760368663594,
+    "support": 108.0
+  },
+  "Renaissance architecture": {
+    "precision": 0.9130434782608695,
+    "recall": 0.6774193548387096,
+    "f1-score": 0.7777777777777778,
+    "support": 31.0
+  },
+  "Rococo architecture": {
+    "precision": 0.6538461538461539,
+    "recall": 0.576271186440678,
+    "f1-score": 0.6126126126126126,
+    "support": 59.0
+  },
+  "Romanesque Revival architecture": {
+    "precision": 0.84375,
+    "recall": 0.9,
+    "f1-score": 0.8709677419354839,
+    "support": 60.0
+  },
+  "Romanesque architecture": {
+    "precision": 0.8,
+    "recall": 0.8,
+    "f1-score": 0.8,
+    "support": 45.0
+  },
+  "Russian Revival architecture": {
+    "precision": 0.8431372549019608,
+    "recall": 0.8113207547169812,
+    "f1-score": 0.8269230769230769,
+    "support": 53.0
+  },
+  "Russian eclectic architecture": {
+    "precision": 0.6229508196721312,
+    "recall": 0.6440677966101694,
+    "f1-score": 0.6333333333333333,
+    "support": 59.0
+  },
+  "Russian wooden architecture": {
+    "precision": 0.8823529411764706,
+    "recall": 0.7627118644067796,
+    "f1-score": 0.8181818181818182,
+    "support": 59.0
+  },
+  "Second Empire architecture": {
+    "precision": 0.8214285714285714,
+    "recall": 0.7666666666666667,
+    "f1-score": 0.7931034482758621,
+    "support": 60.0
+  },
+  "Soviet modernist architecture": {
+    "precision": 0.6666666666666666,
+    "recall": 0.7241379310344828,
+    "f1-score": 0.6942148760330579,
+    "support": 58.0
+  },
+  "Spanish Colonial Revival architecture": {
+    "precision": 0.9047619047619048,
+    "recall": 0.9661016949152542,
+    "f1-score": 0.9344262295081968,
+    "support": 59.0
+  },
+  "Stalinist architecture": {
+    "precision": 0.7021276595744681,
+    "recall": 0.559322033898305,
+    "f1-score": 0.6226415094339622,
+    "support": 59.0
+  },
+  "Streamline Moderne architecture": {
+    "precision": 0.75,
+    "recall": 0.9,
+    "f1-score": 0.8181818181818182,
+    "support": 60.0
+  },
+  "Tudor Revival architecture": {
+    "precision": 0.8356164383561644,
+    "recall": 0.8840579710144928,
+    "f1-score": 0.8591549295774648,
+    "support": 69.0
+  },
+  "accuracy": 0.7852135117909497,
+  "macro avg": {
+    "precision": 0.7866653276507961,
+    "recall": 0.780327061525394,
+    "f1-score": 0.7798987607363604,
+    "support": 3138.0
+  },
+  "weighted avg": {
+    "precision": 0.7868124364857138,
+    "recall": 0.7852135117909497,
+    "f1-score": 0.7830986340768538,
+    "support": 3138.0
+  }
+}

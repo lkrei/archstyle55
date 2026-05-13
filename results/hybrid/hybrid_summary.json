@@ -1,0 +1,40 @@
+[
+  {
+    "accuracy": 0.28138942001274697,
+    "macro_f1": 0.25408009540442283,
+    "balanced_accuracy": 0.2631646015615883,
+    "name": "attr_only",
+    "n_train": 17740,
+    "n_test": 3138,
+    "n_features": 26,
+    "fit_seconds": 42.8
+  },
+  {
+    "accuracy": 0.730082855321861,
+    "macro_f1": 0.7216508185801445,
+    "balanced_accuracy": 0.7185303708079003,
+    "name": "emb_only",
+    "n_train": 17740,
+    "n_test": 3138,
+    "n_features": 768,
+    "fit_seconds": 141.9
+  },
+  {
+    "accuracy": 0.737093690248566,
+    "macro_f1": 0.729545994141984,
+    "balanced_accuracy": 0.7246514074191645,
+    "name": "hybrid",
+    "n_train": 17740,
+    "n_test": 3138,
+    "n_features": 794,
+    "fit_seconds": 175.4
+  },
+  {
+    "mcnemar_emb_vs_hybrid": {
+      "chi2": 2.423076923076923,
+      "p": 0.11955988558481613,
+      "n01": 102,
+      "n10": 80
+    }
+  }
+]

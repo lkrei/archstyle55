@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "archstyle55"
+version = "1.0.0"
+description = "Architectural style classification across 55 categories with hybrid SegFormer + DINOv2 inference."
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+authors = [{ name = "Kirill Makoveev" }]
+
+[project.urls]
+Repository = "https://github.com/lkrei/archstyle55"
+Models = "https://huggingface.co/kkkaredaw/archstyle55-backbones"
+Demo = "https://kkkaredaw-archstyle55-backend.hf.space"
+
+[tool.setuptools.packages.find]
+include = ["pipeline*"]
+exclude = ["pipeline.results*", "pipeline.scripts*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+exclude = ["pipeline/scripts/*.ipynb", "results/", "service/frontend/lib/__pycache__"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+ignore = ["E501", "B008"]

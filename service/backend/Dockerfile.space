@@ -1,0 +1,40 @@
+FROM python:3.11-slim
+
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    PIP_NO_CACHE_DIR=1 \
+    PIP_DISABLE_PIP_VERSION_CHECK=1 \
+    PYTHONPATH=/app \
+    HF_HOME=/data/hf_cache \
+    TRANSFORMERS_CACHE=/data/hf_cache \
+    MODEL_CACHE_DIR=/data/models
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+        build-essential libgl1 libglib2.0-0 git curl ca-certificates \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+
+COPY requirements.txt /app/requirements.txt
+RUN pip install --extra-index-url https://download.pytorch.org/whl/cpu \
+        torch==2.6.0+cpu torchvision==0.21.0+cpu \
+    && pip install -r /app/requirements.txt
+
+COPY app /app/app
+COPY pipeline /app/pipeline
+COPY results /app/results
+COPY alembic.ini /app/alembic.ini
+COPY scripts /app/scripts
+
+RUN mkdir -p /data/models /data/hf_cache \
+    && if [ -f /app/results/hybrid_histgbm.pkl ]; then \
+         cp /app/results/hybrid_histgbm.pkl /data/models/hybrid_histgbm.pkl; \
+       fi \
+    && chmod -R 777 /data
+
+EXPOSE 7860
+
+HEALTHCHECK --interval=30s --timeout=5s --retries=3 \
+  CMD curl -fsS http://localhost:7860/healthz || exit 1
+
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "7860"]

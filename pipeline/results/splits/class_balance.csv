@@ -1,0 +1,56 @@
+class,total,train,val,test
+Achaemenid architecture,400,280,60,60
+American Foursquare architecture,400,280,60,60
+American craftsman style,400,280,60,60
+Ancient Egyptian architecture,406,284,61,61
+Art Deco architecture,566,396,85,85
+Art Nouveau architecture,615,430,92,93
+Baroque architecture,456,319,68,69
+Bauhaus architecture,400,280,60,60
+Beaux-Arts architecture,424,297,64,63
+Brutalist architecture,396,277,59,60
+Byzantine architecture,313,219,47,47
+Chicago school architecture,278,195,42,41
+Chinese traditional architecture,395,276,59,60
+Colonial architecture,480,336,72,72
+Constructivist architecture,395,276,59,60
+Contemporary architecture,200,140,30,30
+Deconstructivism,335,234,50,51
+Edwardian architecture,278,195,42,41
+Federal architecture,309,216,46,47
+Georgian architecture,381,267,57,57
+Gothic Revival architecture,397,278,60,59
+Gothic architecture,331,232,50,49
+Greek Revival architecture,523,366,78,79
+High-tech architecture,400,280,60,60
+Industrial architecture,199,139,30,30
+International style,417,292,63,62
+Italianate architecture,399,279,60,60
+Japanese traditional architecture,399,279,60,60
+Khmer architecture,398,279,60,59
+Mayan architecture,199,139,30,30
+Mid-century modern architecture,400,280,60,60
+Moorish Revival architecture,400,280,60,60
+Moscow Luzhkov style architecture,381,267,57,57
+Mughal architecture,389,272,58,59
+Naryshkin Baroque architecture,390,273,58,59
+Neo-Byzantine architecture,395,276,59,60
+Neoclassical architecture,200,140,30,30
+Novelty architecture,382,267,57,58
+Palladian architecture,343,240,51,52
+Postmodern architecture,322,225,48,49
+Prairie School architecture,200,140,30,30
+Queen Anne architecture,720,504,108,108
+Renaissance architecture,210,147,32,31
+Rococo architecture,394,276,59,59
+Romanesque Revival architecture,399,279,60,60
+Romanesque architecture,301,211,45,45
+Russian Revival architecture,352,246,53,53
+Russian eclectic architecture,392,274,59,59
+Russian wooden architecture,392,274,59,59
+Second Empire architecture,396,277,59,60
+Soviet modernist architecture,387,271,58,58
+Spanish Colonial Revival architecture,397,278,60,59
+Stalinist architecture,392,274,59,59
+Streamline Moderne architecture,400,280,60,60
+Tudor Revival architecture,455,318,68,69

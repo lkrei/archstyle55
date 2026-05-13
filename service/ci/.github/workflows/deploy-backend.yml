@@ -1,0 +1,54 @@
+name: deploy-backend
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "service/backend/**"
+      - "pipeline/**"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy-backend-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  push-to-hf-spaces:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - run: pip install huggingface_hub==0.25.2
+      - name: Push backend to HF Spaces
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          HF_SPACE_REPO: ${{ secrets.HF_SPACE_REPO }}
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import os, pathlib, shutil, subprocess, tempfile
+          from huggingface_hub import HfApi, create_repo
+          token = os.environ["HF_TOKEN"]
+          repo = os.environ["HF_SPACE_REPO"]
+          create_repo(repo_id=repo, token=token, repo_type="space",
+                      space_sdk="docker", exist_ok=True)
+          api = HfApi(token=token)
+          api.upload_folder(
+              folder_path="service/backend",
+              path_in_repo="backend",
+              repo_id=repo,
+              repo_type="space",
+              ignore_patterns=["*.pyc", "__pycache__/*", ".env*"],
+          )
+          api.upload_folder(
+              folder_path="pipeline",
+              path_in_repo="repo/pipeline",
+              repo_id=repo,
+              repo_type="space",
+              ignore_patterns=["__pycache__/*", "*.pyc"],
+          )
+          PY

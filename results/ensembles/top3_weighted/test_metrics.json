@@ -1,0 +1,19 @@
+{
+  "name": "ensemble_top3_weighted",
+  "n_test": 3138,
+  "num_test": 3138,
+  "accuracy": 0.7833014659018483,
+  "macro_f1": 0.7781415747808154,
+  "balanced_accuracy": 0.7784176395514733,
+  "top5_accuracy": 0.9665391969407265,
+  "weights": [
+    0.5,
+    0.5,
+    0.0
+  ],
+  "weighted_search_step": 0.1,
+  "calib_macro_f1": 0.7861761076633137,
+  "accuracy_holdout": 0.7767857142857143,
+  "macro_f1_holdout": 0.7698572246888838,
+  "n_holdout": 1568
+}

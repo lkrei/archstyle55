@@ -1,0 +1,74 @@
+[
+  {
+    "class": "Constructivist architecture",
+    "recall_full": 0.45,
+    "recall_ablation": 0.5666666666666667,
+    "delta": 0.11666666666666664
+  },
+  {
+    "class": "Stalinist architecture",
+    "recall_full": 0.4576271186440678,
+    "recall_ablation": 0.559322033898305,
+    "delta": 0.10169491525423724
+  },
+  {
+    "class": "Brutalist architecture",
+    "recall_full": 0.6333333333333333,
+    "recall_ablation": 0.65,
+    "delta": 0.01666666666666672
+  },
+  {
+    "class": "International style",
+    "recall_full": 0.5806451612903226,
+    "recall_ablation": 0.5967741935483871,
+    "delta": 0.016129032258064502
+  },
+  {
+    "class": "Achaemenid architecture",
+    "recall_full": 0.9166666666666666,
+    "recall_ablation": 0.9166666666666666,
+    "delta": 0.0
+  },
+  {
+    "class": "Mid-century modern architecture",
+    "recall_full": 0.9666666666666667,
+    "recall_ablation": 0.9666666666666667,
+    "delta": 0.0
+  },
+  {
+    "class": "Moorish Revival architecture",
+    "recall_full": 0.65,
+    "recall_ablation": 0.65,
+    "delta": 0.0
+  },
+  {
+    "class": "Mughal architecture",
+    "recall_full": 0.9152542372881356,
+    "recall_ablation": 0.9152542372881356,
+    "delta": 0.0
+  },
+  {
+    "class": "Naryshkin Baroque architecture",
+    "recall_full": 0.6779661016949152,
+    "recall_ablation": 0.6779661016949152,
+    "delta": 0.0
+  },
+  {
+    "class": "Neo-Byzantine architecture",
+    "recall_full": 0.8333333333333334,
+    "recall_ablation": 0.8333333333333334,
+    "delta": 0.0
+  },
+  {
+    "class": "Neoclassical architecture",
+    "recall_full": 0.5333333333333333,
+    "recall_ablation": 0.5333333333333333,
+    "delta": 0.0
+  },
+  {
+    "class": "Novelty architecture",
+    "recall_full": 0.9137931034482759,
+    "recall_ablation": 0.9137931034482759,
+    "delta": 0.0
+  }
+]

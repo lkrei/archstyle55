@@ -1,0 +1,50 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "service/**"
+      - ".github/workflows/**"
+  pull_request:
+    paths:
+      - "service/**"
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - run: pip install ruff==0.6.9
+      - run: ruff check service
+
+  unit:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: pgvector/pgvector:pg16
+        env:
+          POSTGRES_USER: archstyle
+          POSTGRES_PASSWORD: archstyle
+          POSTGRES_DB: archstyle
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U archstyle"
+          --health-interval 5s
+          --health-retries 10
+      redis:
+        image: redis:7-alpine
+        ports: ["6379:6379"]
+    env:
+      DATABASE_URL: postgresql+asyncpg://archstyle:archstyle@localhost:5432/archstyle
+      DATABASE_URL_SYNC: postgresql+psycopg://archstyle:archstyle@localhost:5432/archstyle
+      REDIS_URL: redis://localhost:6379/0
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - run: pip install --extra-index-url https://download.pytorch.org/whl/cpu torch==2.6.0+cpu torchvision==0.21.0+cpu
+      - run: pip install -r service/backend/requirements.txt
+      - run: cd service && pytest -q tests/unit

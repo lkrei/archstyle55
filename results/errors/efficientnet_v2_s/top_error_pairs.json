@@ -1,0 +1,102 @@
+[
+  {
+    "true": "Constructivist architecture",
+    "pred": "Late 20th century Moscow architecture",
+    "count": 16
+  },
+  {
+    "true": "American craftsman style",
+    "pred": "American Foursquare architecture",
+    "count": 10
+  },
+  {
+    "true": "International style",
+    "pred": "Bauhaus architecture",
+    "count": 9
+  },
+  {
+    "true": "Late 20th century Moscow architecture",
+    "pred": "Constructivist architecture",
+    "count": 9
+  },
+  {
+    "true": "Palladian architecture",
+    "pred": "Georgian architecture",
+    "count": 9
+  },
+  {
+    "true": "Stalinist architecture",
+    "pred": "Late 20th century Moscow architecture",
+    "count": 9
+  },
+  {
+    "true": "Bauhaus architecture",
+    "pred": "International style",
+    "count": 8
+  },
+  {
+    "true": "Brutalist architecture",
+    "pred": "Soviet modernist architecture",
+    "count": 8
+  },
+  {
+    "true": "Chinese traditional architecture",
+    "pred": "Japanese traditional architecture",
+    "count": 8
+  },
+  {
+    "true": "Moorish Revival architecture",
+    "pred": "Mughal architecture",
+    "count": 8
+  },
+  {
+    "true": "Russian wooden architecture",
+    "pred": "Naryshkin Baroque architecture",
+    "count": 8
+  },
+  {
+    "true": "Art Deco architecture",
+    "pred": "Bauhaus architecture",
+    "count": 7
+  },
+  {
+    "true": "Chicago school architecture",
+    "pred": "Beaux-Arts architecture",
+    "count": 7
+  },
+  {
+    "true": "Contemporary architecture",
+    "pred": "High-tech architecture",
+    "count": 7
+  },
+  {
+    "true": "Second Empire architecture",
+    "pred": "Italianate architecture",
+    "count": 7
+  },
+  {
+    "true": "High-tech architecture",
+    "pred": "Contemporary architecture",
+    "count": 6
+  },
+  {
+    "true": "Naryshkin Baroque architecture",
+    "pred": "Russian wooden architecture",
+    "count": 6
+  },
+  {
+    "true": "Postmodern architecture",
+    "pred": "International style",
+    "count": 6
+  },
+  {
+    "true": "Rococo architecture",
+    "pred": "Baroque architecture",
+    "count": 6
+  },
+  {
+    "true": "American Foursquare architecture",
+    "pred": "American craftsman style",
+    "count": 5
+  }
+]

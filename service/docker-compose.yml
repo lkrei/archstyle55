@@ -1,0 +1,87 @@
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_USER: archstyle
+      POSTGRES_PASSWORD: archstyle
+      POSTGRES_DB: archstyle
+    ports: ["5432:5432"]
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U archstyle -d archstyle"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  redis:
+    image: redis:7-alpine
+    ports: ["6379:6379"]
+    volumes:
+      - redisdata:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      retries: 10
+
+  backend:
+    build:
+      context: ..
+      dockerfile: service/backend/Dockerfile
+    env_file: .env
+    environment:
+      DATABASE_URL: postgresql+asyncpg://archstyle:archstyle@postgres:5432/archstyle
+      DATABASE_URL_SYNC: postgresql+psycopg://archstyle:archstyle@postgres:5432/archstyle
+      REDIS_URL: redis://redis:6379/0
+      MODEL_CACHE_DIR: /data/models
+      TORCH_HOME: /data/models/torch
+      HF_HOME: /data/models/hf
+      TRANSFORMERS_CACHE: /data/models/hf
+    ports: ["8000:8000"]
+    volumes:
+      - modelcache:/data/models
+      - ../results:/runs_res:ro
+      - ..:/repo:ro
+    depends_on:
+      postgres: { condition: service_healthy }
+      redis: { condition: service_healthy }
+    command: >
+      uvicorn app.main:app --host 0.0.0.0 --port 8000 --workers 1
+
+  worker:
+    build:
+      context: ..
+      dockerfile: service/backend/Dockerfile
+    env_file: .env
+    environment:
+      DATABASE_URL: postgresql+asyncpg://archstyle:archstyle@postgres:5432/archstyle
+      DATABASE_URL_SYNC: postgresql+psycopg://archstyle:archstyle@postgres:5432/archstyle
+      REDIS_URL: redis://redis:6379/0
+      MODEL_CACHE_DIR: /data/models
+      TORCH_HOME: /data/models/torch
+      HF_HOME: /data/models/hf
+      TRANSFORMERS_CACHE: /data/models/hf
+    volumes:
+      - modelcache:/data/models
+      - ../results:/runs_res:ro
+      - ..:/repo:ro
+    depends_on:
+      postgres: { condition: service_healthy }
+      redis: { condition: service_healthy }
+    command: rq worker -u redis://redis:6379/0 archstyle
+
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    env_file: .env
+    environment:
+      PUBLIC_BACKEND_URL: http://backend:8000
+    ports: ["8501:8501"]
+    depends_on:
+      - backend
+
+volumes:
+  pgdata:
+  redisdata:
+  modelcache:

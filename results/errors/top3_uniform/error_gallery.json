@@ -1,0 +1,146 @@
+[
+  {
+    "path": "Gothic architecture/gothic_architecture_00074.jpg",
+    "true": "Gothic architecture",
+    "pred": "Gothic Revival architecture",
+    "confidence": 0.9571557412443744
+  },
+  {
+    "path": "American Foursquare architecture/american_foursquare_architecture_00208.jpg",
+    "true": "American Foursquare architecture",
+    "pred": "Queen Anne architecture",
+    "confidence": 0.9499596433814281
+  },
+  {
+    "path": "Chinese traditional architecture/chinese_traditional_architecture_00314.jpg",
+    "true": "Chinese traditional architecture",
+    "pred": "Japanese traditional architecture",
+    "confidence": 0.9488231784492577
+  },
+  {
+    "path": "Queen Anne architecture/queen_anne_architecture_00281.jpg",
+    "true": "Queen Anne architecture",
+    "pred": "American Foursquare architecture",
+    "confidence": 0.9472729272784917
+  },
+  {
+    "path": "Japanese traditional architecture/japanese_traditional_architecture_00283.jpg",
+    "true": "Japanese traditional architecture",
+    "pred": "Chinese traditional architecture",
+    "confidence": 0.9427889504084831
+  },
+  {
+    "path": "Gothic architecture/gothic_architecture_00214.jpg",
+    "true": "Gothic architecture",
+    "pred": "Romanesque architecture",
+    "confidence": 0.9424918016398279
+  },
+  {
+    "path": "Byzantine architecture/byzantine_architecture_00133.jpg",
+    "true": "Byzantine architecture",
+    "pred": "Palladian architecture",
+    "confidence": 0.9411574201194856
+  },
+  {
+    "path": "American craftsman style/american_craftsman_style_00166.jpg",
+    "true": "American craftsman style",
+    "pred": "American Foursquare architecture",
+    "confidence": 0.9406655979342715
+  },
+  {
+    "path": "Romanesque Revival architecture/romanesque_revival_architecture_00178.jpg",
+    "true": "Romanesque Revival architecture",
+    "pred": "Gothic Revival architecture",
+    "confidence": 0.9403835547072765
+  },
+  {
+    "path": "Russian wooden architecture/russian_wooden_architecture_00201.jpg",
+    "true": "Russian wooden architecture",
+    "pred": "Naryshkin Baroque architecture",
+    "confidence": 0.9401756090264514
+  },
+  {
+    "path": "Rococo architecture/rococo_architecture_00335.jpg",
+    "true": "Rococo architecture",
+    "pred": "Gothic Revival architecture",
+    "confidence": 0.9397734825588909
+  },
+  {
+    "path": "High-tech architecture/high_tech_architecture_00234.jpg",
+    "true": "High-tech architecture",
+    "pred": "Contemporary architecture",
+    "confidence": 0.9382803126539905
+  },
+  {
+    "path": "Moscow Luzhkov style architecture/moscow_luzhkov_style_architecture_00286.jpg",
+    "true": "Late 20th century Moscow architecture",
+    "pred": "Soviet modernist architecture",
+    "confidence": 0.9356019773931723
+  },
+  {
+    "path": "International style/international_style_00108.jpg",
+    "true": "International style",
+    "pred": "Mid-century modern architecture",
+    "confidence": 0.9349928196458511
+  },
+  {
+    "path": "Mughal architecture/mughal_architecture_00220.jpg",
+    "true": "Mughal architecture",
+    "pred": "Moorish Revival architecture",
+    "confidence": 0.9337224468277394
+  },
+  {
+    "path": "Constructivist architecture/constructivist_architecture_00233.jpg",
+    "true": "Constructivist architecture",
+    "pred": "Stalinist architecture",
+    "confidence": 0.9308199524278978
+  },
+  {
+    "path": "Rococo architecture/rococo_architecture_00249.jpg",
+    "true": "Rococo architecture",
+    "pred": "Romanesque Revival architecture",
+    "confidence": 0.9301716947379488
+  },
+  {
+    "path": "Gothic Revival architecture/gothic_revival_architecture_00219.jpg",
+    "true": "Gothic Revival architecture",
+    "pred": "Gothic architecture",
+    "confidence": 0.9282041788579221
+  },
+  {
+    "path": "Baroque architecture/baroque_architecture_00155.jpg",
+    "true": "Baroque architecture",
+    "pred": "Colonial architecture",
+    "confidence": 0.9212751199891688
+  },
+  {
+    "path": "Art Deco architecture/art_deco_architecture_00043.jpg",
+    "true": "Art Deco architecture",
+    "pred": "Streamline Moderne architecture",
+    "confidence": 0.9205239322730909
+  },
+  {
+    "path": "Constructivist architecture/constructivist_architecture_00166.jpg",
+    "true": "Constructivist architecture",
+    "pred": "Soviet modernist architecture",
+    "confidence": 0.920205171546358
+  },
+  {
+    "path": "Postmodern architecture/postmodern_architecture_00250.jpg",
+    "true": "Postmodern architecture",
+    "pred": "International style",
+    "confidence": 0.9166369473857519
+  },
+  {
+    "path": "Georgian architecture/georgian_architecture_00092.jpg",
+    "true": "Georgian architecture",
+    "pred": "Palladian architecture",
+    "confidence": 0.915580401765802
+  },
+  {
+    "path": "Second Empire architecture/second_empire_architecture_00236.jpg",
+    "true": "Second Empire architecture",
+    "pred": "Italianate architecture",
+    "confidence": 0.9154669242941733
+  }
+]
